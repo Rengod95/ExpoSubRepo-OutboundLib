@@ -1,7 +1,7 @@
 import mobileAds, {AppOpenAd, InterstitialAd, TestIds} from 'react-native-google-mobile-ads';
 import {Platform} from 'react-native';
 import {RequestOptions} from 'react-native-google-mobile-ads/src/types/RequestOptions.ts';
-import {InitializationSingleTon} from '@/Service/shared.ts';
+import {InitializationSingleTon} from '@/Service/lib/shared.ts';
 import {getTrackingPermissionsAsync} from 'expo-tracking-transparency';
 
 export class AdvertisementService extends InitializationSingleTon<AdvertisementService> {

@@ -1,4 +1,4 @@
-import {InitializationSingleTon} from '@/Service/shared.ts';
+import {InitializationSingleTon} from '@/Service/lib/shared.ts';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 export class StorageService extends InitializationSingleTon<StorageService> {

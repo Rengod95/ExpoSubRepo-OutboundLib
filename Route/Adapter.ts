@@ -1,4 +1,4 @@
-import {InitializationSingleTon} from '@/Service/shared.ts';
+import {InitializationSingleTon} from '@/Service/lib/shared.ts';
 import {ScreenProps} from 'expo-router/build/useScreens';
 import type {FunctionComponent} from 'react';
 import {Home, Settings} from '@tamagui/lucide-icons';

@@ -1,4 +1,4 @@
-import {InitializationSingleTon} from '@/Service/shared.ts';
+import {InitializationSingleTon} from '@/Service/lib/shared.ts';
 import {isValidElement} from 'react';
 
 export class ComponentValidatorService extends InitializationSingleTon<ComponentValidatorService> {

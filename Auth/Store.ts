@@ -1,5 +1,5 @@
 import {action, computed, makeAutoObservable, observable} from 'mobx';
-import {IdToken} from '@/Service/Outbound/Auth/Adapter.ts';
+import {IdToken} from '@/Service/lib/Auth/Adapter.ts';
 import {FirebaseAuthTypes} from '@react-native-firebase/auth';
 
 export type Session = FirebaseAuthTypes.User | null;

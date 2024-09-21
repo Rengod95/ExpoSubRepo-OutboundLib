@@ -4,3 +4,5 @@ import ApplicationStore from './Store';
 autorun(() => {
   ApplicationStore.logInitializingProcess();
 });
+
+// test

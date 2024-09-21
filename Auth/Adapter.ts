@@ -1,14 +1,14 @@
-import {InitializationSingleTon} from '@/Service/shared.ts';
-import {StorageService} from '@/Service/Outbound/Storage/Adpater.ts';
-import {DEFAULT_STORAGE_ID_TOKEN_KEY} from '@/Service/Outbound/Auth/consts.ts';
+import {InitializationSingleTon} from '@/Service/lib/shared.ts';
+import {StorageService} from '@/Service/lib/Storage/Adpater.ts';
+import {DEFAULT_STORAGE_ID_TOKEN_KEY} from '@/Service/lib/Auth/consts.ts';
 
 import auth, {FirebaseAuthTypes} from '@react-native-firebase/auth';
 import {GoogleSignin, isErrorWithCode, isSuccessResponse, statusCodes} from '@react-native-google-signin/google-signin';
-import AuthStore from '@/Service/Outbound/Auth/Store.ts';
+import AuthStore from '@/Service/lib/Auth/Store.ts';
 import * as AppleAuthentication from 'expo-apple-authentication';
-import API, {GlobalToken} from '@/Service/Outbound/API/Adapter.ts';
+import API, {GlobalToken} from '@/Service/lib/API/Adapter.ts';
 import {isAxiosError} from 'axios';
-import {VariantService} from '@/Service/Outbound/Invariant/Adapter.ts';
+import {VariantService} from '@/Service/lib/Invariant/Adapter.ts';
 
 export type Email = string;
 export type Password = string;

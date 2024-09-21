@@ -1,7 +1,7 @@
 import {useLayoutEffect, useMemo, useState} from 'react';
 
 import {AdEventType} from 'react-native-google-mobile-ads';
-import {AdvertisementService} from '@/Service/Outbound/Ad/Adapter.ts';
+import {AdvertisementService} from '@/Service/lib/Ad/Adapter.ts';
 
 export const useAppOpenAd = () => {
   const [isAppOpenAdLoaded, setIsAppOpenAdLoaded] = useState<boolean>(false);
